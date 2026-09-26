@@ -18,7 +18,7 @@ document.querySelectorAll('.btnDetail').forEach(item => {
         document.querySelector('.modalinfo').innerHTML =info;
         document.querySelector('.modalHarga').innerHTML =harga;
 
-        const nowa = '6287822589113';
+        const nowa = '6282226101584';
         let pesan = `https://api.whatsapp.com/send?phone=${nowa}&text=halo kak, mo order ${gambar}`;
 
         document.querySelector('.btnBeli').href = pesan;
